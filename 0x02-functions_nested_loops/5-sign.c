@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints sign of the number
- * @n-number to be used
+ * @n: number to be used
  * Return: 1 for positive, -1 for negative or zero for anything else
  */
 
@@ -24,4 +24,5 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
+	_putchar('\n');
 }
