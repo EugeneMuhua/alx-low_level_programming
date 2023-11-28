@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * append_text_to_file - Puts text at the end of a file.
+ * append_text_to_file - Puts text to the end of a file.
  * @filename: Points to the name of the file put.
- * @text_content: String to add to the end of file.
+ * @text_content: String to add the end of file.
  *
  * Return: If the function fails or filename is NULL - -1.
  *         If the file does not exist the user lacks write permissions - -1.
